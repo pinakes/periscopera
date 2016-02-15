@@ -9,7 +9,7 @@ d3.csv(csvUrl, function(error, data) {
 		return Math.floor(Math.random() * (max - min)) + min;
 	}
 
-	var randomData = data[getRandomArbitrary(1, 12)]
+	var randomData = data[getRandomArbitrary(1, 80)]
 
 	console.log(randomData)
 
