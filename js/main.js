@@ -26,4 +26,8 @@ function sheetLoaded(data) {
 
 	d3.select(".location small")
 		.text(randomData.country)
+
+	d3.select("body").on("mousedown", function(){
+		window.location.reload();
+	})
 }
