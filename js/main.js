@@ -27,7 +27,7 @@ function sheetLoaded(data) {
 	d3.select(".location small")
 		.text(randomData.country)
 
-	d3.select("body").on("mousedown", function(){
+	d3.select(".video").on("click", function(){
 		window.location.reload();
 	})
 }
